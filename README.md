@@ -1,1 +1,4 @@
-# SE_HW1_96110056
+Simple GUI calculator using Tkinter
+
+Developed by Hossein Hosseini 96110056
+
