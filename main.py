@@ -138,4 +138,7 @@ if __name__ == "__main__":
  
     Decimal= Button(gui, text='.', fg='black', bg='red',
                     command=lambd
+
+    # start the GUI
+    gui.mainloop()
  
