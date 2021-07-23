@@ -43,6 +43,13 @@ def equalpress():
         equation.set(" error ")
         expression = ""
 
+# Function to clear the contents
+# of text entry box
+def clear():
+    global expression
+    expression = ""
+    equation.set("")
+
 # Driver code
 if __name__ == "__main__":
 
