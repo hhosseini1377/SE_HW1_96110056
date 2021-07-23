@@ -62,4 +62,21 @@ if __name__ == "__main__":
     button0 = Button(gui, text=' 0 ', fg='black', bg='red',
                     command=lambda: press(0), height=1, width=7)
     button0.grid(row=5, column=0)
+
+    # equeation buttons added
+    plus = Button(gui, text=' + ', fg='black', bg='red',
+                command=lambda: press("+"), height=1, width=7)
+    plus.grid(row=2, column=3)
+ 
+    minus = Button(gui, text=' - ', fg='black', bg='red',
+                command=lambda: press("-"), height=1, width=7)
+    minus.grid(row=3, column=3)
+ 
+    multiply = Button(gui, text=' * ', fg='black', bg='red',
+                    command=lambda: press("*"), height=1, width=7)
+    multiply.grid(row=4, column=3)
+ 
+    divide = Button(gui, text=' / ', fg='black', bg='red',
+                    command=lambda: press("/"), height=1, width=7)
+    divide.grid(row=5, column=3)
  
