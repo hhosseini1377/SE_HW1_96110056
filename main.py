@@ -3,6 +3,15 @@ from tkinter import *
 # globally declare the expression variable
 expression = ""
 
+# Function to update expression
+# in the text entry box
+def press(num):
+    global expression
+ 
+    expression = expression + str(num)
+ 
+    equation.set(expression)
+
 # Driver code
 if __name__ == "__main__":
 
